@@ -18,7 +18,7 @@ function setup() {
 	world = engine.world;
 
 	//Create the Bodies Here.
-
+	ball = new Paper(200,360,20);
 	
 	Engine.run(engine);
   
@@ -26,14 +26,14 @@ function setup() {
 
 
 function draw() {
-  rectMode(CENTER);
+ 
   background(0);
 
-  ball = new Paper(200,360,50,50);
+ 
 
   ball.display();
   
-  drawSprites();
+  
  
 }
 
